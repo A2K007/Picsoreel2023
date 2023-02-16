@@ -48,7 +48,7 @@ export default function uploadimages() {
                     return (
                         <>
                             <div key={image.image_id}>
-                                {image.image_id} | {image.category} | {image.name} | {image.class}
+                                {image.image_id} | {image.category} | {image.name} | {image.class} | {image.url}
                             </div>
                         </>
                     )

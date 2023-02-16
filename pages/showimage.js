@@ -96,6 +96,7 @@ export default function Scanner() {
                                                 <Col lg={5} md={6} sm={6} xs={10}>
                                                     <Container className={style.box}>
                                                         <Container key={image.image_id} className={style.boxImage}>
+                                                            {image.category}
                                                             <img src={image.url} className={style.image}></img>
                                                         </Container>
                                                         <Link href='/scanner'><button className={style.cancelButton}><img src="cancelLogo.png"/></button></Link>
