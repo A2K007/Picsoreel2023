@@ -252,7 +252,7 @@ export default function Wishlist() {
                       ) 
                         :
                       (
-                        <button className={style.submitButton} onClick={() => alert("Please enter 2 votes for each category")}>Final Submit</button>
+                        <button className={style.submitButton} onClick={() => alert("Please complete 2 selections for each category")}>Final Submit</button>
                       )
                     }
                   </Col>

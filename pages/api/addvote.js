@@ -17,6 +17,6 @@ export default async function handler(req, res) {
         res.status(201).json(allPosts);
     }
     else {
-        res.status(500).json({ msg: "2 votes already casted" });
+        res.status(500).json({ msg: "2 Selections already made in given category. Remove an entry first and then add the new one." });
     }
 }

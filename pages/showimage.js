@@ -46,10 +46,10 @@ export default function Scanner() {
             router.reload()
             const data = await res.json();
             if (data.msg) {
-                alert("2 votes already casted in given category")
+                alert("2 Selections already made in given category. Remove an entry first and then add the new one.")
             }
         } catch (e) {
-            alert("You have already voted for this!")
+            alert("You have already selected this artwork!")
         }
     }
     var router = useRouter();
